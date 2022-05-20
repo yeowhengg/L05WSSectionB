@@ -8,6 +8,7 @@
     android:orientation="vertical">
 
     <Button
+        android:id="@+id/btnInt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PASS INTEGER VALUE TO 2ND ACTIVITY">
@@ -15,10 +16,20 @@
     </Button>
 
     <Button
+        android:id="@+id/btnChar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PASS CHARACTER VALUE TO 2ND ACTIVITY">
 
     </Button>
+
+    <TextView
+        android:id="@+id/tvPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="PASS DOUBLE VALUE TO 2ND ACTIVITY">
+
+    </TextView>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
